@@ -13,6 +13,10 @@
 		E25F2CB32A33439400B4FD2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E25F2CB22A33439400B4FD2D /* Preview Assets.xcassets */; };
 		E25F2CB52A33439400B4FD2D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25F2CB42A33439400B4FD2D /* Persistence.swift */; };
 		E25F2CB82A33439400B4FD2D /* ToDoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E25F2CB62A33439400B4FD2D /* ToDoApp.xcdatamodeld */; };
+		E25F2CC02A3345C900B4FD2D /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25F2CBF2A3345C900B4FD2D /* Home.swift */; };
+		E25F2CC32A3347CC00B4FD2D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E25F2CC52A3347CC00B4FD2D /* Localizable.strings */; };
+		E25F2CCA2A334F1D00B4FD2D /* CustomFilteringDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25F2CC92A334F1D00B4FD2D /* CustomFilteringDataView.swift */; };
+		E25F2CCC2A339A3800B4FD2D /* LocaleKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25F2CCB2A339A3800B4FD2D /* LocaleKeys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,11 @@
 		E25F2CB22A33439400B4FD2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E25F2CB42A33439400B4FD2D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		E25F2CB72A33439400B4FD2D /* ToDoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoApp.xcdatamodel; sourceTree = "<group>"; };
+		E25F2CBF2A3345C900B4FD2D /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		E25F2CC42A3347CC00B4FD2D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E25F2CC62A3347D700B4FD2D /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E25F2CC92A334F1D00B4FD2D /* CustomFilteringDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFilteringDataView.swift; sourceTree = "<group>"; };
+		E25F2CCB2A339A3800B4FD2D /* LocaleKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleKeys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,12 +64,16 @@
 		E25F2CAA2A33439200B4FD2D /* ToDoApp */ = {
 			isa = PBXGroup;
 			children = (
+				E25F2CC52A3347CC00B4FD2D /* Localizable.strings */,
+				E25F2CBE2A3345BF00B4FD2D /* View */,
 				E25F2CAB2A33439200B4FD2D /* ToDoAppApp.swift */,
 				E25F2CAD2A33439300B4FD2D /* ContentView.swift */,
+				E25F2CC92A334F1D00B4FD2D /* CustomFilteringDataView.swift */,
 				E25F2CAF2A33439400B4FD2D /* Assets.xcassets */,
 				E25F2CB42A33439400B4FD2D /* Persistence.swift */,
 				E25F2CB62A33439400B4FD2D /* ToDoApp.xcdatamodeld */,
 				E25F2CB12A33439400B4FD2D /* Preview Content */,
+				E25F2CCB2A339A3800B4FD2D /* LocaleKeys.swift */,
 			);
 			path = ToDoApp;
 			sourceTree = "<group>";
@@ -71,6 +84,14 @@
 				E25F2CB22A33439400B4FD2D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E25F2CBE2A3345BF00B4FD2D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E25F2CBF2A3345C900B4FD2D /* Home.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -115,6 +136,7 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = E25F2C9F2A33439200B4FD2D;
 			productRefGroup = E25F2CA92A33439200B4FD2D /* Products */;
@@ -132,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E25F2CB32A33439400B4FD2D /* Preview Assets.xcassets in Resources */,
+				E25F2CC32A3347CC00B4FD2D /* Localizable.strings in Resources */,
 				E25F2CB02A33439400B4FD2D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,19 +167,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				E25F2CB52A33439400B4FD2D /* Persistence.swift in Sources */,
+				E25F2CCA2A334F1D00B4FD2D /* CustomFilteringDataView.swift in Sources */,
 				E25F2CAE2A33439300B4FD2D /* ContentView.swift in Sources */,
+				E25F2CC02A3345C900B4FD2D /* Home.swift in Sources */,
 				E25F2CAC2A33439200B4FD2D /* ToDoAppApp.swift in Sources */,
 				E25F2CB82A33439400B4FD2D /* ToDoApp.xcdatamodeld in Sources */,
+				E25F2CCC2A339A3800B4FD2D /* LocaleKeys.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E25F2CC52A3347CC00B4FD2D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E25F2CC42A3347CC00B4FD2D /* en */,
+				E25F2CC62A3347D700B4FD2D /* tr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E25F2CB92A33439400B4FD2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -217,6 +256,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";

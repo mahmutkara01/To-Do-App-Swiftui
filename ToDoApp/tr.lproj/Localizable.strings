@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  ToDoApp
+
+  Created by mahmut kara on 9.06.2023.
+  
+*/
+"pending_tasks" = "Bekleyen Görevler";
+"completed_tasks" = "Tamamlanan Görevler";
+"no_tasks_found" = "Görev Bulunamadı";
+"new_task" = "Yeni Görev";
+"task_title" = "Görev Açıklaması";
+"no_tasks_found" = "Görev Bulunamadı";
+"change_language" = "Dili değiştir";
+"english" = "İngilizce";
+"turkish" = "Türkçe";
