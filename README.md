@@ -13,7 +13,8 @@ Bu, SwiftUI kullanarak oluşturulmuş basit bir Todo uygulamasıdır. Uygulama, 
 
 ## Ekran Görüntüleri
 
-<img width="215" alt="todo-app" src="https://github.com/mahmutkara01/ToDoApp/assets/92724610/56832da3-2637-4337-886b-e116a4bab9b2">
+<img width="215" alt="todo-app" src="https://github.com/mahmutkara01/To-Do-App-Swifui/assets/92724610/272b7aca-618c-4668-a3b8-4a409f18d1ae">
+
 
 ## Nasıl Çalıştırılır
 
